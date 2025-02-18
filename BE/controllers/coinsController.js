@@ -1,6 +1,6 @@
 let userCoins = require("../models/userCoins");
 const errorHandler = require("../utils/errorHandler");
-
+const axios = require('axios')
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const jwtToken = require("../utils/jwtToken");
 const userModel = require("../models/userModel");
