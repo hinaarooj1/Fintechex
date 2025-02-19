@@ -17,7 +17,7 @@ app.use(cookieParser());
 const cron = require("node-cron");
 let ALLOWED_ORIGINS = [
   "https://fintechex.pro",
-  "https://www.fintechex.pro/",
+  "https://www.fintechex.pro",
   "https://fintechex.vercel.app",
   "http://localhost:3000",
   "http://localhost:3001",
