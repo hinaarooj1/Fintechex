@@ -11,6 +11,15 @@ import {
 export const registerApi = (data) => {
   return postApi("register", data);
 };
+export const registerSubAdminApi = (data) => {
+  return postApi("registerSubAdmin", data);
+};
+export const addUserByEmailApi = (data) => {
+  return postApi("addUserByEmail", data);
+};
+export const exportExcelApi = () => {
+  return getApi("exportExcel");
+};
 export const loginApi = (data) => {
   return postApi("login", data);
 };

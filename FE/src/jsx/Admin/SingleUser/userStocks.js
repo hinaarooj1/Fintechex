@@ -52,9 +52,7 @@ const UserTransactions = () => {
 
     const getCoins = async () => {
         try {
-            // const response = await axios.get(
-            //     "https://api.coindesk.com/v1/bpi/currentprice.json"
-            // );
+
             const userCoins = await getCoinsApi(id);
 
             if (userCoins.success) {
