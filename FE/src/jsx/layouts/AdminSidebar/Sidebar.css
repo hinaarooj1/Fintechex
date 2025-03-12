@@ -40,3 +40,110 @@
 .bansa:disabled {
     opacity: 0.5 !important;
 }
+
+.widn img {
+    width: 30px;
+}
+
+.sasa {
+    color: #3736af;
+}
+
+.taj th,
+.tram td {
+    text-align: center !important;
+}
+
+.taj th.lefts,
+.tram td.lefts {
+    text-align: left !important;
+}
+
+.td-data:hover {
+    text-decoration: underline;
+}
+
+.td-data {
+    cursor: pointer;
+
+}
+
+.thisd button {
+    padding-block: 13px !important;
+}
+
+.thisd .language-dropdown-menu {
+    top: 47px;
+    left: 0px;
+}
+
+.thisd .language-dropdown-menu,
+.thisd button {
+    border: none !important;
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    margin-right: 10px;
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.language-button:hover {
+    background-color: #e5e7eb;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.language-dropdown-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 120px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    /* Now visible when `isOpen` is true */
+    z-index: 10;
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.language-option:hover {
+    background-color: #f3f4f6;
+}
+
+.language-option .flag-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
