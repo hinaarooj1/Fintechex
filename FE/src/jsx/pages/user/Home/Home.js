@@ -106,11 +106,11 @@ const Home = () => {
     setNav(false);
     setBar(false);
   };
-  window.addEventListener("scroll", function () {
-    let header = this.document.querySelector("#sticky-header");
+  // window.addEventListener("scroll", function () {
+  //   let header = this.document.querySelector("#sticky-header");
 
-    header.classList.toggle("sticky-menu", window.scrollY > 150);
-  });
+  //   header.classList.toggle("sticky-menu", window.scrollY > 150);
+  // });
 
   return (
     <div className="homepg">

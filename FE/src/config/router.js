@@ -42,6 +42,8 @@ import ScrollToTop from "./top.js";
 import Supportpage from "../jsx/Admin/createTicketMain.js";
 import AddSubAdmin from "../jsx/Admin/AddsubAdmin.js";
 import AdminSubAdmin from "../jsx/Admin/AdminSubAdmin.js";
+import AiTrading from "../jsx/pages/report/Trading.jsx";
+import AiTradingBot from "../jsx/pages/user/AiTradingBot.js";
 export default function Router() {
 
   return (
@@ -124,6 +126,14 @@ export default function Router() {
             element={
               <RequireAuth loginPath={"/auth/login"}>
                 <StakingPg />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/trading"
+            element={
+              <RequireAuth loginPath={"/auth/login"}>
+                <AiTradingBot />
               </RequireAuth>
             }
           />

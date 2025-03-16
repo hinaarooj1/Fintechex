@@ -577,6 +577,7 @@ exports.getTransactions = catchAsyncErrors(async (req, res, next) => {
       'X-CMC_PRO_API_KEY': process.env.BTC_KEY,
     },
   });
+  console.log('response: ', response);
   let btcPrice = response.data.data.BTC
   res.status(200).send({
     success: true,
